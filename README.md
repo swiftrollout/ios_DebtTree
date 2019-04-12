@@ -64,3 +64,45 @@ Optional:
 
 ### [BONUS] Interactive Prototype
 <img src="" width=200>
+
+## Schema
+Model:	User	
+Property 	Type	Description
+userId	String	unique id for the user (default field)
+vemoId	String	account id
+paypalId	String	account id
+quickpayId	String	account id
+		
+Model:	Trip	
+Property 	Type	Description
+tripId	String	unique id for the trip (default field)
+createDate	DateTime	date when trip is created
+isDelete	Bool	is this trip deleted
+		
+Model:	Expenditure	
+Property 	Type	Description
+expenditureId	String	unique id for the expenditure (default field)
+tripid	String	
+receiptURL	String	receipt image url
+isDelete	Bool	is this expenditure deleted
+		
+Model:	Members	
+Property 	Type	Description
+groupId	String	unique id for the trip group (default field)
+tripid	String	trip id
+
+## List of network requests by screen
+Home Screen
+(Read/GET) Query all trips where user is in
+(Create/POST) Create a new trip
+(Delete) Delete existing trip where user is creator
+
+Create Trip Screen
+(Create/POST) Create a new trip object
+
+Create Expenditure Screen
+(Create/POST) Create a new expenditure object
+
+Profile Screen
+(Read/GET) Query logged in user object
+(Update/PUT) Update user profile
