@@ -45,7 +45,6 @@ Keep track how much travelers spend in the trip and they can spit the expenditur
 
 **Tab Navigation** (Tab to Screen)
 
-* Music selection
 * Profile
 * Settings
 
@@ -58,10 +57,10 @@ Optional:
 * Settings -> Toggle settings
 
 ## Wireframes
-<img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
+<img src="" width=800><br>
 
 ### [BONUS] Digital Wireframes & Mockups
-<img src="https://i.imgur.com/lYHn37F.jpg" height=200>
+<img src="" height=200>
 
 ### [BONUS] Interactive Prototype
-<img src="https://i.imgur.com/AiKfE5g.gif" width=200>
+<img src="" width=200>
