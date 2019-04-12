@@ -1,0 +1,6 @@
+framework module Pods_DebtTree {
+  umbrella header "Pods-DebtTree-umbrella.h"
+
+  export *
+  module * { export * }
+}
