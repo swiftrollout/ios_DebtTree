@@ -15,6 +15,8 @@
 		CEA419402260296D007E2446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA4193F2260296D007E2446 /* Assets.xcassets */; };
 		CEA419432260296D007E2446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA419412260296D007E2446 /* LaunchScreen.storyboard */; };
 		CEA4194B22602A6E007E2446 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4194A22602A6E007E2446 /* LoginViewController.swift */; };
+		CEAB081522695E4500AD4DD9 /* Group.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAB081422695E4500AD4DD9 /* Group.storyboard */; };
+		CEAB08172269608500AD4DD9 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB08162269608500AD4DD9 /* GroupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		CEA419422260296D007E2446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA419442260296D007E2446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEA4194A22602A6E007E2446 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CEAB081422695E4500AD4DD9 /* Group.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Group.storyboard; sourceTree = "<group>"; };
+		CEAB08162269608500AD4DD9 /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 				CEA4194A22602A6E007E2446 /* LoginViewController.swift */,
 				8CF94AD72268E99100F14A87 /* User.storyboard */,
 				8CF94AD92268EFBD00F14A87 /* UserViewController.swift */,
+				CEAB081422695E4500AD4DD9 /* Group.storyboard */,
+				CEAB08162269608500AD4DD9 /* GroupViewController.swift */,
 			);
 			path = DebtTree;
 			sourceTree = "<group>";
@@ -157,6 +163,7 @@
 				8CF94AD82268E99100F14A87 /* User.storyboard in Resources */,
 				CEA419402260296D007E2446 /* Assets.xcassets in Resources */,
 				CEA4193E2260296B007E2446 /* Main.storyboard in Resources */,
+				CEAB081522695E4500AD4DD9 /* Group.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAB08172269608500AD4DD9 /* GroupViewController.swift in Sources */,
 				CEA4194B22602A6E007E2446 /* LoginViewController.swift in Sources */,
 				8CF94ADA2268EFBD00F14A87 /* UserViewController.swift in Sources */,
 				CEA419392260296B007E2446 /* AppDelegate.swift in Sources */,
