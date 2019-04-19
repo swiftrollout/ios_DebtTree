@@ -106,3 +106,6 @@ Create Expenditure Screen
 Profile Screen
 (Read/GET) Query logged in user object
 (Update/PUT) Update user profile
+
+## Build Progress
+<img src="http://g.recordit.co/kYhfymFPyW.gif" width=800><br>
