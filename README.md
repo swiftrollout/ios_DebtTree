@@ -24,10 +24,10 @@ Keep track how much travelers spend in the trip and they can spit the expenditur
 
 **Required Must-have Stories**
 
-* User logs in to access trip history and preference settings
-* User can create trip expenditure list
-* User can add other people to the trip
-* User can add their payment option like vemo, paypal and quickpay account
+-[x] User logs in to access trip history and preference settings
+-[x] User can create group expenditure list
+-[x] User can add other people to the group
+-[x] User can add their payment option like vemo, paypal and quickpay account
 
 **Optional Nice-to-have Stories**
 
