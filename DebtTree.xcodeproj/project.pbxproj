@@ -10,6 +10,9 @@
 		0D66F166BE8491C0194B5788 /* Pods_DebtTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E26F56CE2A8D8FEE7455CA /* Pods_DebtTree.framework */; };
 		8CF94AD82268E99100F14A87 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF94AD72268E99100F14A87 /* User.storyboard */; };
 		8CF94ADA2268EFBD00F14A87 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF94AD92268EFBD00F14A87 /* UserViewController.swift */; };
+		B31C960F2269F8D200DF251E /* NewGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31C960E2269F8D200DF251E /* NewGroupViewController.swift */; };
+		B32DB480226D2D050025D6D7 /* AddGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32DB47F226D2D050025D6D7 /* AddGroupCell.swift */; };
+		B33BCDA5226AD8D00053D6F4 /* AddGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BCDA4226AD8D00053D6F4 /* AddGroupViewController.swift */; };
 		CEA419392260296B007E2446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA419382260296B007E2446 /* AppDelegate.swift */; };
 		CEA4193E2260296B007E2446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA4193C2260296B007E2446 /* Main.storyboard */; };
 		CEA419402260296D007E2446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA4193F2260296D007E2446 /* Assets.xcassets */; };
@@ -25,6 +28,9 @@
 		8CF94AD92268EFBD00F14A87 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		A23C41501B6841E3CF40043B /* Pods-DebtTree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebtTree.release.xcconfig"; path = "Pods/Target Support Files/Pods-DebtTree/Pods-DebtTree.release.xcconfig"; sourceTree = "<group>"; };
 		AB90E40033B205DE65EA4EEC /* Pods-DebtTree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebtTree.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DebtTree/Pods-DebtTree.debug.xcconfig"; sourceTree = "<group>"; };
+		B31C960E2269F8D200DF251E /* NewGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGroupViewController.swift; sourceTree = "<group>"; };
+		B32DB47F226D2D050025D6D7 /* AddGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupCell.swift; sourceTree = "<group>"; };
+		B33BCDA4226AD8D00053D6F4 /* AddGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupViewController.swift; sourceTree = "<group>"; };
 		CEA419352260296B007E2446 /* DebtTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebtTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA419382260296B007E2446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEA4193D2260296B007E2446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -96,6 +102,9 @@
 				8CF94AD92268EFBD00F14A87 /* UserViewController.swift */,
 				CEAB081422695E4500AD4DD9 /* Group.storyboard */,
 				CEAB08162269608500AD4DD9 /* GroupViewController.swift */,
+				B31C960E2269F8D200DF251E /* NewGroupViewController.swift */,
+				B33BCDA4226AD8D00053D6F4 /* AddGroupViewController.swift */,
+				B32DB47F226D2D050025D6D7 /* AddGroupCell.swift */,
 			);
 			path = DebtTree;
 			sourceTree = "<group>";
@@ -195,10 +204,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31C960F2269F8D200DF251E /* NewGroupViewController.swift in Sources */,
 				CEAB08172269608500AD4DD9 /* GroupViewController.swift in Sources */,
 				CEA4194B22602A6E007E2446 /* LoginViewController.swift in Sources */,
 				8CF94ADA2268EFBD00F14A87 /* UserViewController.swift in Sources */,
+				B33BCDA5226AD8D00053D6F4 /* AddGroupViewController.swift in Sources */,
 				CEA419392260296B007E2446 /* AppDelegate.swift in Sources */,
+				B32DB480226D2D050025D6D7 /* AddGroupCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
