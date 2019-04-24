@@ -6,5 +6,8 @@ target 'DebtTree' do
   use_frameworks!
 
   # Pods for DebtTree
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
 
 end
