@@ -8,31 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		0D66F166BE8491C0194B5788 /* Pods_DebtTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E26F56CE2A8D8FEE7455CA /* Pods_DebtTree.framework */; };
+		8C365FE32272A24B00AD1018 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C365FE22272A24B00AD1018 /* SignUpViewController.swift */; };
+		8C365FE72272B1A500AD1018 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C365FE62272B1A500AD1018 /* GoogleService-Info.plist */; };
+		8C365FE92272BD7600AD1018 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C365FE82272BD7600AD1018 /* LoginViewController.swift */; };
+		8C365FEB2272BE7900AD1018 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C365FEA2272BE7900AD1018 /* HomeViewController.swift */; };
 		8CF94AD82268E99100F14A87 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF94AD72268E99100F14A87 /* User.storyboard */; };
 		8CF94ADA2268EFBD00F14A87 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF94AD92268EFBD00F14A87 /* UserViewController.swift */; };
 		B31C960F2269F8D200DF251E /* NewGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31C960E2269F8D200DF251E /* NewGroupViewController.swift */; };
 		B32DB480226D2D050025D6D7 /* AddGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32DB47F226D2D050025D6D7 /* AddGroupCell.swift */; };
-		B3355530226DDADC001B127E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B335552F226DDADC001B127E /* GoogleService-Info.plist */; };
 		B33BCDA5226AD8D00053D6F4 /* AddGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33BCDA4226AD8D00053D6F4 /* AddGroupViewController.swift */; };
 		B3F12000226DF10E00CEF3E9 /* GoogleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F11FFF226DF10E00CEF3E9 /* GoogleLoginViewController.swift */; };
 		CEA419392260296B007E2446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA419382260296B007E2446 /* AppDelegate.swift */; };
 		CEA4193E2260296B007E2446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA4193C2260296B007E2446 /* Main.storyboard */; };
 		CEA419402260296D007E2446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA4193F2260296D007E2446 /* Assets.xcassets */; };
 		CEA419432260296D007E2446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA419412260296D007E2446 /* LaunchScreen.storyboard */; };
-		CEA4194B22602A6E007E2446 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4194A22602A6E007E2446 /* LoginViewController.swift */; };
 		CEAB081522695E4500AD4DD9 /* Group.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAB081422695E4500AD4DD9 /* Group.storyboard */; };
 		CEAB08172269608500AD4DD9 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB08162269608500AD4DD9 /* GroupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03E26F56CE2A8D8FEE7455CA /* Pods_DebtTree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DebtTree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C365FE22272A24B00AD1018 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8C365FE62272B1A500AD1018 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8C365FE82272BD7600AD1018 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8C365FEA2272BE7900AD1018 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8CF94AD72268E99100F14A87 /* User.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
 		8CF94AD92268EFBD00F14A87 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		A23C41501B6841E3CF40043B /* Pods-DebtTree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebtTree.release.xcconfig"; path = "Pods/Target Support Files/Pods-DebtTree/Pods-DebtTree.release.xcconfig"; sourceTree = "<group>"; };
 		AB90E40033B205DE65EA4EEC /* Pods-DebtTree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebtTree.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DebtTree/Pods-DebtTree.debug.xcconfig"; sourceTree = "<group>"; };
 		B31C960E2269F8D200DF251E /* NewGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGroupViewController.swift; sourceTree = "<group>"; };
 		B32DB47F226D2D050025D6D7 /* AddGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupCell.swift; sourceTree = "<group>"; };
-		B335552F226DDADC001B127E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B33BCDA4226AD8D00053D6F4 /* AddGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupViewController.swift; sourceTree = "<group>"; };
 		B3F11FFF226DF10E00CEF3E9 /* GoogleLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLoginViewController.swift; sourceTree = "<group>"; };
 		CEA419352260296B007E2446 /* DebtTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebtTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,7 +46,6 @@
 		CEA4193F2260296D007E2446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA419422260296D007E2446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEA419442260296D007E2446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEA4194A22602A6E007E2446 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CEAB081422695E4500AD4DD9 /* Group.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Group.storyboard; sourceTree = "<group>"; };
 		CEAB08162269608500AD4DD9 /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,9 +104,8 @@
 				CEA4193C2260296B007E2446 /* Main.storyboard */,
 				CEA4193F2260296D007E2446 /* Assets.xcassets */,
 				CEA419412260296D007E2446 /* LaunchScreen.storyboard */,
-				B335552F226DDADC001B127E /* GoogleService-Info.plist */,
+				8C365FE62272B1A500AD1018 /* GoogleService-Info.plist */,
 				CEA419442260296D007E2446 /* Info.plist */,
-				CEA4194A22602A6E007E2446 /* LoginViewController.swift */,
 				8CF94AD72268E99100F14A87 /* User.storyboard */,
 				8CF94AD92268EFBD00F14A87 /* UserViewController.swift */,
 				CEAB081422695E4500AD4DD9 /* Group.storyboard */,
@@ -111,6 +114,9 @@
 				B33BCDA4226AD8D00053D6F4 /* AddGroupViewController.swift */,
 				B32DB47F226D2D050025D6D7 /* AddGroupCell.swift */,
 				B3F11FFF226DF10E00CEF3E9 /* GoogleLoginViewController.swift */,
+				8C365FE22272A24B00AD1018 /* SignUpViewController.swift */,
+				8C365FE82272BD7600AD1018 /* LoginViewController.swift */,
+				8C365FEA2272BE7900AD1018 /* HomeViewController.swift */,
 			);
 			path = DebtTree;
 			sourceTree = "<group>";
@@ -181,7 +187,7 @@
 				CEA419402260296D007E2446 /* Assets.xcassets in Resources */,
 				CEA4193E2260296B007E2446 /* Main.storyboard in Resources */,
 				CEAB081522695E4500AD4DD9 /* Group.storyboard in Resources */,
-				B3355530226DDADC001B127E /* GoogleService-Info.plist in Resources */,
+				8C365FE72272B1A500AD1018 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,9 +220,16 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DebtTree/Pods-DebtTree-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DebtTree/Pods-DebtTree-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DebtTree/Pods-DebtTree-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -231,9 +244,22 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DebtTree/Pods-DebtTree-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DebtTree/Pods-DebtTree-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DebtTree/Pods-DebtTree-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -247,10 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C365FE92272BD7600AD1018 /* LoginViewController.swift in Sources */,
 				B31C960F2269F8D200DF251E /* NewGroupViewController.swift in Sources */,
 				CEAB08172269608500AD4DD9 /* GroupViewController.swift in Sources */,
-				CEA4194B22602A6E007E2446 /* LoginViewController.swift in Sources */,
 				8CF94ADA2268EFBD00F14A87 /* UserViewController.swift in Sources */,
+				8C365FE32272A24B00AD1018 /* SignUpViewController.swift in Sources */,
+				8C365FEB2272BE7900AD1018 /* HomeViewController.swift in Sources */,
 				B33BCDA5226AD8D00053D6F4 /* AddGroupViewController.swift in Sources */,
 				CEA419392260296B007E2446 /* AppDelegate.swift in Sources */,
 				B32DB480226D2D050025D6D7 /* AddGroupCell.swift in Sources */,

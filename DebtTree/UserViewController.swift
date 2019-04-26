@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Firebase
 class UserViewController: UIViewController {
 
     override func viewDidLoad() {

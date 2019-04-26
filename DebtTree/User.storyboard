@@ -1,55 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0cY-4X-OJ5">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
+        <deployment version="4624" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
+        <scene sceneID="L2C-vz-mqc">
+            <objects>
+                <viewController id="wiH-lx-RKs" customClass="LoginViewController" customModule="DebtTree" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7F7-OC-XSV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="nUH-KJ-EyY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rIu-Po-xOA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1836" y="-351"/>
+        </scene>
+        <!--Start View Controller-->
         <scene sceneID="k7C-lA-fZR">
             <objects>
-                <viewController id="xbq-Jo-JUR" sceneMemberID="viewController">
+                <viewController id="xbq-Jo-JUR" customClass="StartViewController" customModule="DebtTree" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G3W-M8-uXf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Debt Tree" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zsM-uz-bBF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Debt Tree" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zsM-uz-bBF">
                                 <rect key="frame" x="0.0" y="154" width="375" height="48"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDk-hf-wKa">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDk-hf-wKa">
                                 <rect key="frame" x="128" y="499" width="119" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="Sign Up">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="vyH-nI-3IU" kind="show" id="fhd-cN-QMj"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yR-5e-GiU">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yR-5e-GiU">
                                 <rect key="frame" x="141" y="412" width="92" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="Log In">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="wiH-lx-RKs" kind="show" id="Pul-JN-omJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.86298899490000003" blue="0.41192371169999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="3yR-5e-GiU" secondAttribute="bottom" constant="201" id="E18-ZU-pAm"/>
+                            <constraint firstItem="zsM-uz-bBF" firstAttribute="centerX" secondItem="qDk-hf-wKa" secondAttribute="centerX" id="J1L-Tf-9Qd"/>
+                            <constraint firstItem="3yR-5e-GiU" firstAttribute="leading" secondItem="ijg-rM-KgX" secondAttribute="leading" constant="141" id="LIH-HT-6iL"/>
                             <constraint firstItem="zsM-uz-bBF" firstAttribute="leading" secondItem="ijg-rM-KgX" secondAttribute="leading" id="NgK-bh-P88"/>
                             <constraint firstItem="ijg-rM-KgX" firstAttribute="trailing" secondItem="zsM-uz-bBF" secondAttribute="trailing" id="fvh-N0-cU6"/>
+                            <constraint firstItem="zsM-uz-bBF" firstAttribute="top" secondItem="ijg-rM-KgX" secondAttribute="top" constant="90" id="vHv-0P-1Ee"/>
+                            <constraint firstItem="qDk-hf-wKa" firstAttribute="top" secondItem="3yR-5e-GiU" secondAttribute="bottom" constant="33" id="xJQ-lJ-huL"/>
+                            <constraint firstItem="zsM-uz-bBF" firstAttribute="centerX" secondItem="3yR-5e-GiU" secondAttribute="centerX" id="xb1-P7-TXv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ijg-rM-KgX"/>
                     </view>
+                    <navigationItem key="navigationItem" id="qdD-W2-sQ6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ayx-R2-K90" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="848.79999999999995" y="94.902548725637189"/>
+        </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="gt2-Wv-bk1">
+            <objects>
+                <viewController id="vyH-nI-3IU" customClass="SignUpViewController" customModule="DebtTree" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gBE-Ok-yYz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="afu-FT-cB5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sDm-Gb-9lr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1836" y="528"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Wmj-Eg-uwh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0cY-4X-OJ5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PJ1-HX-Nec">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xbq-Jo-JUR" kind="relationship" relationship="rootViewController" id="66R-yu-tOR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MtA-OX-kRj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-90.400000000000006" y="94.902548725637189"/>
         </scene>
